@@ -1,0 +1,29 @@
+/* Chọn các button có class là Dashboard */
+.Dashboard {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  /* Chọn các button có class là thiet-bi */
+  .thiet-bi {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  /* Chọn các button có class là dich-vu */
+  .dich-vu {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
