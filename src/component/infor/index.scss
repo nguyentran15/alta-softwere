@@ -1,0 +1,87 @@
+@import "../../scss/index.scss";
+.body {
+    display: flex;
+    min-height: 100vh;
+    &_container {
+        flex: 1;
+        position: relative;
+        &_top {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 {
+                top: 29px;
+                left: 24px;
+                right: 24px;
+                bottom: 45px;
+            }
+            &_left {
+                width: 50%;
+                span {
+                    line-height: 30px;
+                    color: #ff9138;
+                    margin: 2%;
+                    font-size: 24px;
+                    left: 300px;
+                }
+            }
+            &_right {
+                width: 50%;
+                display: flex;
+                justify-content: right;
+                img {
+                    height: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 12px;
+                }
+            }
+        }
+        &_bottom {
+            // position: absolute;
+            // left: 224px;
+            // top: 168px;
+            width: 1112px;
+            height: 397px;
+            background-color: #fff;
+            border-radius: 8px;
+            justify-content: space-between;
+            display: flex;
+            padding: 40px 24px;
+            &_item {
+                input {
+                    @include input;
+                    background-color: #eaeaec;
+                    align-items: center;
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                img {
+                    // top: 145px;
+                    // left: 345px;
+                    // position: absolute;
+                }
+                .body_midleft_1 {
+                    font-size: 24px;
+                    line-height: 36px;
+                    font-weight: bold;
+                    margin-left: 40px;
+                }
+                svg {
+                    width: 30px;
+                    height: 30px;
+                    color: #ffff;
+                    background-color: #ff9138;
+                    border-radius: 50%;
+                    margin-left: -70px;
+                }
+            }
+        }
+    }
+}

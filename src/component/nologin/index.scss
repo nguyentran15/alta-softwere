@@ -1,0 +1,105 @@
+@import "../../scss/index.scss";
+
+.nologin {
+    display: flex;
+    background: $gray;
+    height: 100vh;
+    .nologin_left {
+        .nologin_left_nd {
+            position: absolute;
+            // width: 142px;
+            // height: 54px;
+            left: 5%;
+            top: 30%;
+            .nologin_left_nd_1 {
+                @mixin input {
+                }
+            }
+            .nologin_left_nd_2 {
+                @include input;
+                font-size: 16px;
+                line-height: 24px;
+                border: 1px solid $red;
+            }
+            .nologin_left_nd_3 {
+            }
+            .nologin_left_nd_4 {
+                @include input;
+                font-size: 16px;
+                line-height: 24px;
+                border: 1px solid $red;
+            }
+            .nologin_left_nd_5 {
+                color: #e73f3f;
+                cursor: pointer;
+                width: 384px;
+                height: 44px;
+                display: flex;
+                margin-top: 10px;
+            }
+            .nologin_left_nd_6 {
+                @include knot;
+                color: #ffff;
+                margin: 0 auto;
+                display: block;
+            }
+            .nologin_left_nd_7 {
+                color: #e73f3f;
+                cursor: pointer;
+                text-align: center;
+                margin-top: 10px;
+            }
+            .icon{
+                margin-top: 3px;
+                margin-right: 5px;
+            }
+        }
+        img {
+            position: absolute;
+            left: 11.5%;
+            right: 0%;
+            top: 2.5%;
+            bottom: 16.97%;
+        }
+        flex: 1;
+        width: 168, 27px;
+        height: 112, 93px;
+    }
+    .nologin_right {
+        background: #ffff;
+        width: 848px;
+
+        left: 671px;
+        top: 112.94px;
+        img {
+            top: 82px;
+            margin-left: 79px;
+        }
+        .nologin_right_title {
+            position: absolute;
+            // width: 142px;
+            // height: 54px;
+            right: 3%;
+            top: 46%;
+        }
+        .nologin_right_title_top {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 51px;
+            text-align: center;
+            color: $text;
+            margin-right: 60%;
+        }
+        .nologin_right_title_bottom {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 54px;
+            text-align: center;
+            color: $text;
+        }
+    }
+}

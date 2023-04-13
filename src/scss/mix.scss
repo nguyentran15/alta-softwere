@@ -1,0 +1,91 @@
+@mixin login() {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 215px;
+    top: 511px;
+    background: #ff9138;
+}
+@mixin frame() {
+    position: static;
+    width: 400px;
+    height: 44px;
+    left: 0px;
+    top: 31px;
+}
+@mixin button() {
+    width: 162px;
+    height: 40px;
+}
+@mixin input() {
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 384px;
+    height: 44px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+    padding-left: 8px;
+}
+@mixin input_1() {
+    border: 1px solid;
+    width: 400px;
+    height: 44px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+    padding-left: 8px;
+    border-radius: 8px;
+    left: 94px;
+    top: 391px;
+}
+@mixin input_2() {
+    width: 540px;
+    height: 44px;
+    left: 0px;
+    top: 32px;
+    background: #ffffff;
+    border: 1.5px solid #d4d4d7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    padding-left: 8px;
+    
+}
+@mixin boder {
+    border-radius: 8px;
+}
+@mixin knot {
+    cursor: pointer;
+    padding: 10px 24px;
+    background: #ff9138;
+    border-radius: 8px;
+    border: 1px solid grey;
+    font-size: 16px;
+    line-height: 24px;
+    width: 162px;
+    height: 47px;
+    font-weight: bold;
+}
+@mixin knot_1 {
+    cursor: pointer;
+    padding: 10px 24px;
+    background: #ffff;
+    border-radius: 8px;
+    border: 1px solid #ff9138;
+    font-size: 16px;
+    line-height: 24px;
+    width: 162px;
+    height: 47px;
+    font-weight: bold;
+}

@@ -1,0 +1,94 @@
+@import "../../scss/index.scss";
+.list {
+    width: 200px;
+    color: $infor;
+    img {
+        margin-top: 32px;
+        margin-left: 64px;
+        width: 80px;
+        height: 84px;
+    }
+    .list_left {
+        line-height: 40px;
+        margin-left: 16px;
+        .list_left_1 {
+            .list_left_1_icon {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-right: 9px;
+            }
+        }
+        .list_left_2 {
+            .list_left_2_icon {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-right: 9px;
+                
+            }
+        }
+        .list_left_3 {
+            .list_left_3_icon {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-right: 9px;
+                
+            }
+        }
+        .list_left_4 {
+            .list_left_4_icon {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-right: 9px;
+                
+            }
+        }
+        .list_left_5 {
+            .list_left_5_icon {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-right: 9px;
+                
+            }
+        }
+        .list_left_6 {
+            .list_left_6_icon {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-right: 9px;
+                
+            }
+            .list_left_6_icon_2 {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-left: 17px;
+                
+            }
+        }
+        .list_left_7 {
+            margin-top: 150px;
+            color: $text;
+            .list_left_7_icon {
+                width: 16px; 
+                height: 16px ;
+                fill: currentColor ;
+                viewBox : 0 0 16 16;
+                margin-right: 9px;
+                
+            }
+        }
+    }
+}

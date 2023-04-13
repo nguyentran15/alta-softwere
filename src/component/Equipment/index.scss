@@ -1,0 +1,172 @@
+@import "../../scss/index.scss";
+.equipment {
+    display: flex;
+    min-height: 100vh;
+    .equipment_left {
+    }
+    .equipment_right {
+        width: 100%;
+        position: relative;
+        .equipment_right_top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            margin-top: 29px;
+            margin-left: 24px;
+            margin-right: 24px;
+            margin-bottom: 45px;
+            height: 20px;
+            .equipment_right_title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 30px;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 0px 8px;
+                .equipment_right_title_1 {
+                    color: #7e7d88;
+                }
+                .equipment_right_title_2 {
+                    margin-left: 15px;
+                }
+                .equipment_right_title_3 {
+                    color: #ff7506;
+                    margin-left: 15px;
+                }
+            }
+            .user {
+                justify-content: flex-end;
+                background-color: #ffff;
+            }
+        }
+        .equipment_right_bottom {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            color: #ff7506;
+            margin-left: 24px;
+        }
+
+        .equipment_right_content {
+            .equipment_right_content_icon {
+                margin-bottom: 16px;
+                .equipment_right_content_icon_1 {
+                    display: flex;
+                    .equipment_right_content_icon_1_about {
+                        margin-left: 24px;
+                        .equipment_right_content_icon_1_title {
+                            font-weight: bold;
+                            margin-bottom: 4px;
+                        }
+                        .equipment_right_content_icon_1_nd {
+                            .a {
+                                width: 300px;
+                                height: 44px;
+                                border: 1.5px solid #d4d4d7;
+                                box-sizing: border-box;
+                                border-radius: 8px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 10px 12px;
+                            }
+                        }
+                    }
+                    .equipment_right_content_icon_2_about {
+                        margin-left: 24px;
+                        .equipment_right_content_icon_2_title {
+                            font-weight: bold;
+                            margin-bottom: 4px;
+                        }
+                        .equipment_right_content_icon_2_nd {
+                            .a {
+                                width: 300px;
+                                height: 44px;
+                                border: 1.5px solid #d4d4d7;
+                                box-sizing: border-box;
+                                border-radius: 8px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 10px 12px;
+                            }
+                        }
+                    }
+                    .equipment_right_content_icon_3_about {
+                        margin-left: 188px;
+                        .equipment_right_content_icon_3_title {
+                            font-weight: bold;
+                            margin-bottom: 4px;
+                        }
+                        .equipment_right_content_icon_3_nd {
+                            .a {
+                                font-family: Nunito;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #282739;
+
+                                .input {
+                                    width: 300px;
+                                    height: 44px;
+                                    border: 1.5px solid #d4d4d7;
+                                    box-sizing: border-box;
+                                    border-radius: 8px;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    padding: 10px 12px;
+                                }
+                                img {
+                                    margin-left: -35px;
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .equipment_right_content_table {
+                margin-left: 24px;
+                .equipment_right_content_table_device {
+                    .title {
+                        background-color: #ff9138;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #ffff;
+                        height: 49px;
+                    }
+                    // border-collapse: collapse;
+                    width: 100%;
+                    background-color: #fff2e7;
+                    
+                    .redd {
+                        color: red;
+                    }
+                    .gren {
+                        margin-right: 4px;
+                        color: #35c75a;
+                    }
+                    td {
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .equipment_right_add {
+        align-items: center;
+        margin-top: 235px;
+        margin-left: 10px;
+        justify-content: flex-end;
+        color: #ff7506;
+    }
+}

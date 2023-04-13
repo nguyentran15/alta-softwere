@@ -1,0 +1,230 @@
+@import "../../scss/index.scss";
+.addservices {
+    display: flex;
+    min-height: 100vh;
+    .addservices_left {
+    }
+    .addservices_right {
+        width: 100%;
+        position: relative;
+        .addservices_right_top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            margin-top: 29px;
+            margin-left: -30px;
+            margin-right: 24px;
+            margin-bottom: 45px;
+            height: 20px;
+
+            .addservices_right_title {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 30px;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 0px 8px;
+                color: #7e7d88;
+                margin-left: 24px;
+                padding: 29px;
+                &_1 {
+                }
+                &_2 {
+                    margin-left: 15px;
+                }
+                &_3 {
+                    margin-left: 15px;
+                }
+                &_4 {
+                    margin-left: 15px;
+                }
+                &_5 {
+                    color: #ff7506;
+                    margin-left: 15px;
+                }
+            }
+            .user {
+                justify-content: flex-end;
+            }
+        }
+        .addservices_right_bottom {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            color: #ff7506;
+            margin-left: 24px;
+        }
+        .addservices_input_title {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            color: #ff7506;
+            margin-top: 28px;
+            margin-left: 48px;
+            margin-bottom: 15px;
+        }
+        .addservices_input {
+            .addservices_input_about {
+                width: 1112px;
+                height: 397px;
+                background-color: #fff;
+                border-radius: 8px;
+                justify-content: space-between;
+                display: flex;
+                margin-left: 48px;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #282739;
+                }
+                .addservices_input_left {
+                    .addservices_input_left_title {
+                        display: flex;
+                        p {
+                            color: red;
+                            width: 6px;
+                            height: 6px;
+                            margin-top: 2px;
+                        }
+                        span {
+                            align-items: center;
+                            margin-left: 2px;
+                            line-height: 21px;
+                        }                       
+                    }
+                    .input1 {
+                        @include input_2;
+                        background-color: #eaeaec;
+                        align-items: center;
+                    }
+                }
+                .addservices_input_right {
+                    .input2 {
+                        background-color: #eaeaec;
+                        width: 535px;
+                        height: 132px;
+                        border: 1.5px solid #d4d4d7;
+                        box-sizing: border-box;
+                        border-radius: 8px;
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+                        margin: 8px 0px;
+                        padding-left: 8px;
+                    }
+                }
+                .bottom {
+                    position: absolute;
+                    margin-top: 192px;
+
+                    .addservices_bottom {
+                        color: $text;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                    .addservices_bottom_checkbox {
+                        display: flex;
+                        justify-content: space-between;
+                        .addservices_bottom_checkbox_items {
+                            flex-direction: column;
+                            .addservices_bottom_checkbox_item {
+                                align-items: center;
+                            }
+                            .addservices_bottom_checkbox_item input {
+                                width: 15px;
+                                height: 15px;
+                                background: #ffffff;
+                                padding: 0;
+                                border: 1px solid #4277ff;
+                                box-sizing: border-box;
+                                border-radius: 4px;
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                background-clip: border-box;
+                                margin-right: 5px;
+                                flex: none;
+                                order: 1;
+                                flex-grow: 0;
+                            }
+                            .addservices_bottom_checkbox_item span {
+                                font-family: Nunito;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                align-items: center;
+                                color: #282739;
+                                margin: 0 4px;
+                                line-height: 32px;
+                            }
+                        }
+                        .addservices_bottom_input_items {
+                            .addservices_bottom_input_item_item {
+                                align-items: center;
+                                justify-content: space-between;
+                            }
+                            .addservices_bottom_input_item_item input {
+                                padding: 10px 12px;
+                                width: 56px;
+                                height: 36px;
+                                background: #ffffff;
+                                border: 1.5px solid #d4d4d7;
+                                box-sizing: border-box;
+                                border-radius: 8px;
+                                margin: 4px 10px;
+                            }
+                            .addservices_bottom_input_item_item span {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 24px;
+                                align-items: center;
+                                color: #282739;
+                                margin: 0 4px;
+                            }
+                        }
+                    }
+                    .bottom_content {
+                        display: flex;
+                        .bottom_content_about {
+                            display: flex;
+                            p {
+                                color: red;
+                                width: 6px;
+                                height: 6px;
+                                margin-top: 2px;
+                            }
+                            span {
+                                align-items: center;
+                                margin-left: 2px;
+                                color: #7e7d88;
+                                font-size: 14px;
+                                line-height: 21px;
+                            }
+                        }
+                    }
+                }
+            }
+            .addservices_input_button {
+                margin-left: 35%;
+                // margin-top: -40px;
+                .addservices_input_button_1 {
+                    @include knot_1;
+                    color: $abc;
+                    float: left;
+                }
+                .addservices_input_button_2 {
+                    @include knot;
+                    color: #ffff;
+                    margin-left: 32px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+@import "../../scss/index.scss";
+.repass {
+    position: absolute;
+    display: flex;
+    background: #ffff;
+    height: 100vh;
+    .repass_right {
+        width: 45%;
+        background: $gray;
+        flex: 1;
+        .repass_right_about {
+            margin: auto;
+            width: 400px;
+            // justify-content: center;
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 40px;
+                margin-bottom: 51px;
+                // position: absolute;
+                // width: 170px;
+                // height: 136px;
+                // left: 208px;
+                // top: 82px;
+                // margin-left: 100px;
+                // position: absolute;
+                // left: 11.5%;
+                // right: 0%;
+                // top: 2.5%;
+                // bottom: 16.97%;
+            }
+            .repass_right_bot {
+                .repass_right_bot_1 {                
+                    font-size: 22px;
+                    line-height: 33px;
+                    // display: block;
+                    font-weight: bold;
+                    // text-align: center;
+                }
+                .repass_right_bot_2 {
+                    display: block;
+                    font-size: 18px;
+                    line-height: 27px;
+                    // text-align: center;
+                }
+                .repass_right_bot_3 {
+                    @include input_1;
+                    font-size: 16px;
+                    // line-height: 24px;
+                    // border: $gray;
+                    // margin-bottom: 35px;
+                    
+                }
+                .repass_right_bot_4 {
+                    // @include knot_1;
+                    // color: $abc;
+                    // font-weight: 100;
+                    // margin: 0 auto;
+                    // display: block;
+                    // background: #ffff;
+                    // float: left;
+                    // margin-left: 30px;
+                }
+                .repass_right_bot_5 {
+                    @include input_1;
+                    font-size: 16px;
+                    // @include knot;
+                    // background: $abc;
+                    // color: #ffff;
+                    // font-weight: 100;
+                    // margin: 0 auto;
+                    // display: block;
+                }
+                .repass_right_bot_6 {
+                    display: block;
+                    @include knot;
+                    background: $abc;
+                    color: #ffff;
+                    font-weight: 100;
+                    margin: 0 auto;
+                    margin-top: 25px;
+                    
+                }
+            }
+        }
+    }
+    .repass_left {
+        width: 55%;
+        top: 82px;
+        margin-left: 79px;
+    }
+}

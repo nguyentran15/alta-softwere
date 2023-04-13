@@ -1,0 +1,116 @@
+@import "../../../scss/index.scss";
+.bodyright {
+    width: 401px;
+    height: 810px;
+    left: 1039px;
+    top: 0px;
+    min-height: 100vh;
+    margin-left: 24px;
+
+    .bodyright_top {
+        .bodyright_top_title {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            color: #ff7506;
+        }
+        &_nd {
+            padding: 1px;
+            margin: 10px 0;
+            &_1 {
+                display: flex;
+                &_right {
+                    .red {
+                        font-weight: bold;
+                        // margin-right: 10px;
+                    }
+                }
+                &_left {
+                    margin-left: 10px;
+                    .bodyright_top_nd_1_left_point {
+                        font-weight: bold;
+                        margin-right: 4px;
+                    }
+                    .bodyright_top_nd_1_left_status {
+                        margin-right: 8px;
+                        color: #7e7d88;
+                    }
+                    .bodyright_top_nd_1_left_number {
+                        color: #ff7506;
+                        font-weight: bold;
+                    }
+                }
+            }
+            &_2 {
+                margin-top: 10px;
+                display: flex;
+                &_right {
+                    .blue {
+                        font-weight: bold;
+                        margin-right: 10px;
+                    }
+                }
+                &_left {
+                    margin-left: 10px;
+                    .bodyright_top_nd_2_left_point {
+                        font-weight: bold;
+                        margin-right: 4px;
+                    }
+                    .bodyright_top_nd_2_left_status {
+                        margin-right: 8px;
+                        color: #7e7d88;
+                    }
+                    .bodyright_top_nd_2_left_number {
+                        color: #4277FF;
+                        font-weight: bold;
+                    }
+                }
+            }
+            &_3 {
+                margin-top: 10px;
+                display: flex;
+                &_right {
+                    .green {
+                        font-weight: bold;
+                        margin-right: 10px;
+                    }
+                }
+                &_left {
+                    margin-left: 10px;
+                    .bodyright_top_nd_3_left_point {
+                        font-weight: bold;
+                        margin-right: 4px;
+                    }
+                    .bodyright_top_nd_3_left_status {
+                        margin-right: 8px;
+                        color: #7e7d88;
+                    }
+                    .bodyright_top_nd_3_left_number {
+                        color: #35C75A;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .dashbroad_top_2 {
+            width: 50%;
+            display: flex;
+            justify-content: right;
+            img {
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                margin-left: 12px;
+            }
+        }
+    }
+    &_bottom {
+        img {
+            width: 353px;
+            height: 336px;
+            left: 24px;
+        }
+    }
+}

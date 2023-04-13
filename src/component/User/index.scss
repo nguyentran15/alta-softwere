@@ -1,0 +1,39 @@
+@import "../../scss/index.scss";
+.user {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    justify-content: flex-end;
+    img {
+        width: 32px;
+        height: 32px;
+        margin-right: 20px;
+    }
+    .user_about {
+        display: flex;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+        &_person {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            &_1 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 18px;
+                color: #7E7D88;
+            }
+            &_2 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+                color: #535261;
+            }
+        }
+    }
+}

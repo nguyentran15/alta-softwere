@@ -1,0 +1,150 @@
+@import "../../scss/index.scss";
+.devicedetails {
+    display: flex;
+    min-height: 100vh;
+    .devicedetails_left {
+    }
+    .devicedetails_right {
+        width: 100%;
+        position: relative;
+        .devicedetails_right_top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            margin-top: 29px;
+            margin-left: 24px;
+            margin-right: 24px;
+            margin-bottom: 45px;
+            height: 20px;
+            .devicedetails_right_title {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 30px;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 0px 8px;
+                color: #7e7d88;
+                margin-left: 24px;
+                padding: 29px;
+                &_1 {
+                }
+                &_2 {
+                    margin-left: 15px;
+                }
+                &_3 {
+                    margin-left: 15px;
+                }
+                &_4 {
+                    margin-left: 15px;
+                }
+                &_5 {
+                    color: #ff7506;
+                    margin-left: 15px;
+                }
+            }
+            .user {
+                justify-content: flex-end;
+            }
+        }
+        .devicedetails_right_bottom {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            color: #ff7506;
+            margin-left: 24px;
+        }
+        .devicedetails_content {
+            display: flex;
+            .devicedetails_input_title {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 30px;
+                color: #ff7506;
+                margin-top: 28px;
+                margin-left: 48px;
+                margin-bottom: 15px;
+            }
+            .devicedetails_icon {
+                margin-left: 900px;
+                color: #ff7506;
+            }
+        }
+
+        .devicedetails_input {
+            .devicedetails_input_about {
+                width: 1112px;
+                height: 397px;
+                background-color: #fff;
+                border-radius: 8px;
+                justify-content: space-between;
+                padding: 40px 24px;
+                margin-left: 48px;
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #282739;
+                }
+                .devicedetails_about {
+                    display: flex;
+                    .devicedetails_input_left {
+                        .devicedetails_input_left_nd1 {
+                            display: flex;
+                            margin-top: 16px;
+                            .devicedetails_input_left_nd1_2 {
+                                margin-left: 43px;
+                            }
+                        }
+                        .devicedetails_input_left_nd2 {
+                            display: flex;
+                            margin-top: 16px;
+                            .devicedetails_input_left_nd2_2 {
+                                margin-left: 39px;
+                            }
+                        }
+                        .devicedetails_input_left_nd3 {
+                            display: flex;
+                            margin-top: 16px;
+                            .devicedetails_input_left_nd3_2 {
+                                margin-left: 51px;
+                            }
+                        }
+                    }
+                    .devicedetails_input_right_nd {
+                        margin-left: 366px;
+                        .devicedetails_input_right_nd1 {
+                            display: flex;
+                            margin-top: 16px;
+                            .devicedetails_input_right_nd1_2 {
+                                margin-left: 69px;
+                            }
+                        }
+                        .devicedetails_input_right_nd2_1 {
+                            display: flex;
+                            margin-top: 16px;
+                            .devicedetails_input_right_nd2_2 {
+                                margin-left: 46px;
+                            }
+                        }
+                        .devicedetails_input_right_nd3 {
+                            display: flex;
+                            margin-top: 16px;
+                            .devicedetails_input_right_nd3_2 {
+                                margin-left: 87px;
+                                margin-bottom: 16px;
+                            }
+                        }
+                    }
+                    .devicedetails_input_bottom {
+                        position: absolute;
+                        margin-top: 255px;
+                    }
+                }
+            }
+        }
+    }
+}
